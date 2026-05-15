@@ -1,7 +1,7 @@
 # Create an AKS cluster with Linux and Windows nodes using Terraform
 
 ## Overview & Deployed Resources
-This project deploys an AKS cluster with default Linux node and Windows node using Terraform. The .tfstate file is then saved in a blob container.
+This project deploys an AKS cluster with default Linux node and adding a Windows node using Terraform. The Linux node is configured within a new Virtual Network. The .tfstate file is then saved in an existing blob container.
 
 ## Resources
 - azurerm_resource_group 

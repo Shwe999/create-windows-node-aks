@@ -1,3 +1,8 @@
+---
+Description: This template builds an AKS cluster with default Linux node within a VNet and a Windows node addition.
+Products: Azurerm
+Language: Terraform
+---
 # Create an AKS cluster with Linux and Windows nodes using Terraform
 
 ## Overview & Deployed Resources
@@ -8,3 +13,5 @@ This project deploys an AKS cluster with default Linux node and adding a Windows
 - azurerm_virtual_network 
 - azurerm_kubernetes_cluster 
 - azurerm_kubernetes_cluster_node_pool
+
+`Tags: Azure Kubernetes Service, AKS cluster, AKS node pool, VNet`
